@@ -1,0 +1,7 @@
+# 1. 清除Xcode 编译缓存
+30 9 * * 2 rm -rf ~/Library/Developer/Xcode/DerivedData/*
+30 9 * * 2 osascript -e 'display notification "😄 正在清除Xcode编译缓存..." with title "来自远方的通知" subtitle "from samingzhong" sound name "Blow"'   
+
+# 2. 打开Xcode 设备版本支持相关文件夹
+30 14 * */3 * open ~/Library/Developer/Xcode/iOS\ DeviceSupport
+30 14 * */3 * osascript -e 'display notification "😄 已经为您打开了这个文件夹，请注意甄别清理... " with title "距离上回清理iOS DeviceSupport文件夹已经有阵子啦" subtitle "from samingzhong" sound name "Tink"'
